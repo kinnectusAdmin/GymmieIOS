@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+	platform :ios, '9.0'
+
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+target 'Gymmie' do
+ pod 'Firebase'
+ pod 'Firebase/Analytics'
+ pod 'Firebase/Database'
+ pod 'Firebase/Auth'
+ pod 'Firebase/Storage'
+ pod 'Firebase/Core'
+ pod 'Fabric'
+ pod 'Crashlytics'
+ pod 'FacebookCore'
+ pod 'FacebookLogin'
+ pod 'FacebookShare'
+ pod 'Branch'
+ pod 'Mixpanel-swift'
+end
+
